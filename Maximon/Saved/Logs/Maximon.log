@@ -897,3 +897,66 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.20-09.59.54:560][ 28]LogRenderer: Reallocating scene render targets to support 1112x620 Format 10 NumSamples 1 (Frame:1140).
 [2021.11.20-09.59.54:600][ 30]LogRenderer: Reallocating scene render targets to support 1112x624 Format 10 NumSamples 1 (Frame:1144).
 [2021.11.20-09.59.54:637][ 32]LogRenderer: Reallocating scene render targets to support 1112x628 Format 10 NumSamples 1 (Frame:1148).
+[2021.11.20-10.10.58:068][758]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.11.20-10.10.58:081][758]LogContentBrowser: Creating deferred item: NewFolder
+[2021.11.20-10.10.59:075][818]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2021.11.20-10.10.59:075][818]LogContentBrowser: End creating deferred item NewFolder
+[2021.11.20-10.11.07:599][326]LogContentBrowser: Deferred new asset file creation: InteractionConcept1
+[2021.11.20-10.11.07:608][326]LogContentBrowser: Creating deferred item: InteractionConcept1
+[2021.11.20-10.11.26:738][474]LogContentBrowser: Attempting asset rename: InteractionConcept1 -> UpperLevel_Concept
+[2021.11.20-10.11.26:755][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.11.20-10.11.26:764][474]LogContentBrowser: End creating deferred item InteractionConcept1
+[2021.11.20-10.11.29:636][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.11.20-10.11.29:646][643]LogSavePackage: Moving '../../../../../Work/Projects/Maximon/Maximon/Saved/UpperLevel_ConceptDB74789E4A39981BB0B7BEA7FD0E9034.tmp' to '../../../../../Work/Projects/Maximon/Maximon/Content/Maximon/Maps/UpperLevel_Concept.umap'
+[2021.11.20-10.11.29:649][643]LogFileHelpers: Saving map 'UpperLevel_Concept' took 0.019
+[2021.11.20-10.11.29:655][643]AssetCheck: New page: Asset Save: UpperLevel_Concept
+[2021.11.20-10.11.29:655][643]LogContentValidation: Display: Validating World /Game/Maximon/Maps/UpperLevel_Concept.UpperLevel_Concept
+[2021.11.20-10.11.31:664][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.11.20-10.11.31:696][763]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maximon/Maps/UpperLevel_Concept.UpperLevel_Concept
+[2021.11.20-10.11.31:697][763]Cmd: MAP LOAD FILE="../../../../../Work/Projects/Maximon/Maximon/Content/Maximon/Maps/UpperLevel_Concept.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.20-10.11.31:697][763]LightingResults: New page: Lighting Build
+[2021.11.20-10.11.31:697][763]LoadErrors: New page: Loading map: UpperLevel_Concept.umap
+[2021.11.20-10.11.31:698][763]LogWorld: UWorld::CleanupWorld for InteractionConcept, bSessionEnded=true, bCleanupResources=true
+[2021.11.20-10.11.31:698][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.20-10.11.31:698][763]MapCheck: New page: Map Check
+[2021.11.20-10.11.31:698][763]LightingResults: New page: Lighting Build
+[2021.11.20-10.11.31:701][763]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.20-10.11.31:703][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.11.20-10.11.31:704][763]LogAudio: Display: Audio Device (ID: 1) registered with world 'UpperLevel_Concept'.
+[2021.11.20-10.11.31:754][763]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.20-10.11.31:754][763]LogAIModule: Creating AISystem for world UpperLevel_Concept
+[2021.11.20-10.11.31:759][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.11.20-10.11.31:762][763]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.20-10.11.31:762][763]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.067ms to complete.
+[2021.11.20-10.11.31:762][763]LogFileHelpers: Loading map 'UpperLevel_Concept' took 0.065
+[2021.11.20-10.11.44:238][509]Cmd: DELETE
+[2021.11.20-10.11.44:239][509]Cmd: ACTOR DELETE
+[2021.11.20-10.11.44:251][509]LogEditorActor: Deleted Actor: TextRenderActor
+[2021.11.20-10.11.44:254][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.11.20-10.11.44:255][509]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2021.11.20-10.11.49:252][809]Cmd: DELETE
+[2021.11.20-10.11.49:252][809]Cmd: ACTOR DELETE
+[2021.11.20-10.11.49:253][809]LogEditorActor: Deleted Actor: TextRenderActor
+[2021.11.20-10.11.49:257][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.11.20-10.11.49:257][809]LogEditorActor: Deleted 1 Actors (0.005 secs)
+[2021.11.20-10.13.32:007][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2021.11.20-10.13.34:683][133]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2021.11.20-10.15.38:419][539]Cmd: TRANSACTION UNDO
+[2021.11.20-10.15.38:419][539]LogEditorTransaction: Undo Edit Horizon Falloff
+[2021.11.20-10.15.52:927][404]LogSlate: Took 0.005601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.11.20-10.16.57:702][289]Cmd: TRANSACTION UNDO
+[2021.11.20-10.16.57:702][289]LogEditorTransaction: Undo Edit Sun Brightness
+[2021.11.20-10.18.01:122][ 85]LogSlate: Window 'Color Picker' being destroyed
+[2021.11.20-10.18.38:493][323]LogSlate: Window 'Color Picker' being destroyed
+[2021.11.20-10.18.52:632][169]LogSlate: Window 'Color Picker' being destroyed
+[2021.11.20-10.19.15:462][535]LogSlate: Window 'Color Picker' being destroyed
+[2021.11.20-10.20.00:969][261]LogSlate: Window 'Color Picker' being destroyed
+[2021.11.20-10.21.48:073][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.11.20-10.21.48:086][211]LogSavePackage: Moving '../../../../../Work/Projects/Maximon/Maximon/Saved/UpperLevel_Concept_Auto1310ECD394D8BE42792E206AEA8549716.tmp' to '../../../../../Work/Projects/Maximon/Maximon/Saved/Autosaves/Game/Maximon/Maps/UpperLevel_Concept_Auto1.umap'
+[2021.11.20-10.21.48:087][211]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maximon/Maps/UpperLevel_Concept' took 0.061
+[2021.11.20-10.21.48:087][211]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.061
+[2021.11.20-10.38.07:744][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.11.20-10.38.07:756][686]LogSavePackage: Moving '../../../../../Work/Projects/Maximon/Maximon/Saved/UpperLevel_ConceptEF4CB07D459F3EB6EB2BDA806041F53A.tmp' to '../../../../../Work/Projects/Maximon/Maximon/Content/Maximon/Maps/UpperLevel_Concept.umap'
+[2021.11.20-10.38.07:765][686]LogFileHelpers: Saving map 'UpperLevel_Concept' took 0.026
+[2021.11.20-10.38.07:773][686]AssetCheck: New page: Asset Save: UpperLevel_Concept
+[2021.11.20-10.38.07:773][686]LogContentValidation: Display: Validating World /Game/Maximon/Maps/UpperLevel_Concept.UpperLevel_Concept
