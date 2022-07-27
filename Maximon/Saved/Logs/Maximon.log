@@ -1100,3 +1100,221 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.07.27-16.44.17:395][727]LogSlate: Took 0.009047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
 [2022.07.27-16.44.17:422][727]LogSlate: Took 0.007876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2022.07.27-16.44.42:224][163]LogDerivedDataCache: C:/Users/Zaina/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.115 and deleted 107 file(s) with total size 11 MiB.
+[2022.07.27-16.46.40:539][141]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.27-16.46.40:549][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-16.46.40:556][141]PIE: New page: PIE session: ThirdPersonExampleMap (28 Jul 2022, 00:46:40)
+[2022.07.27-16.46.40:563][141]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.07.27-16.46.40:564][141]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.07.27-16.46.40:566][141]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.07.27-16.46.40:573][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007120s)
+[2022.07.27-16.46.40:573][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.007651s)
+[2022.07.27-16.46.40:573][141]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.27-16.46.40:574][141]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.27-16.46.40:575][141]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.07.27-16.46.40:576][141]LogPlayLevel: PIE: World Init took: (0.002553s)
+[2022.07.27-16.46.40:585][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.07.27-16.46.40:588][141]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.07.27-16.46.40:588][141]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-16.46.40:588][141]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-16.46.40:588][141]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.27-16.46.40:588][141]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.27-16.46.40:588][141]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.27-16.46.40:588][141]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.27-16.46.40:588][141]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-16.46.40:588][141]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-16.46.40:588][141]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.27-16.46.40:588][141]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.27-16.46.40:588][141]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.27-16.46.40:590][141]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.27-16.46.40:626][141]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Arctis 5 Game)
+[2022.07.27-16.46.40:626][141]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-16.46.40:626][141]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-16.46.40:626][141]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-16.46.40:627][141]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.07.27-16.46.40:627][141]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.07.27-16.46.40:628][141]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.07.27-16.46.40:628][141]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.07.27-16.46.40:628][141]LogInit: FAudioDevice initialized.
+[2022.07.27-16.46.40:628][141]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2022.07.27-16.46.40:644][141]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.07.27-16.46.40:648][141]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.07.27-20.46.40
+[2022.07.27-16.46.40:650][141]LogWorld: Bringing up level for play took: 0.005111
+[2022.07.27-16.46.40:652][141]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2022.07.27-16.46.40:692][141]PIE: Server logged in
+[2022.07.27-16.46.40:693][141]PIE: Play in editor total start time 0.149 seconds.
+[2022.07.27-16.46.53:986][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-16.46.53:986][932]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.07.27-16.46.53:987][932]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-16.46.53:989][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.46.54:004][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-16.46.54:008][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.46.54:015][932]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-16.46.54:019][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.07.27-16.46.54:021][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.07.27-16.46.54:025][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-16.46.54:029][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.07.27-16.46.54:075][934]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.07.27-16.47.23:317][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.07.27-16.47.23:397][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:397][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:397][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:SkyOcclusion0_2 (TFO_AutoDXT, 64X32 X1X1) (Required Memory Estimate: 0.05209 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:398][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:ShadowMapTexture2D_1 (G8, 32X32 X1X1) (Required Memory Estimate: 0.006509 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:398][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:ShadowMapTexture2D_0 (G8, 1024X512 X1X1) (Required Memory Estimate: 3.333335 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:398][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:398][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:SkyOcclusion0_1 (TFO_AutoDXT, 1024X512 X1X1) (Required Memory Estimate: 13.33334 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:398][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:398][687]LogTexture: Display: Building textures: /Game/Maximon/Maps/InteractionConcept_BuiltData.InteractionConcept_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.07.27-16.47.23:398][687]LogMaterial: Display: Missing cached shadermap for MInteract_Highlight in PCD3D_SM5, Default, SM5 (DDC key hash: 078BF79DDC2871C602402F402DB589EB6A7C56D3), compiling. 
+[2022.07.27-16.47.23:438][687]LogStaticMesh: StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair should be resaved to improve async compilation performance.
+[2022.07.27-16.47.23:466][687]LogStaticMesh: StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door should be resaved to improve async compilation performance.
+[2022.07.27-16.47.23:474][687]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maximon/Maps/InteractionConcept.InteractionConcept
+[2022.07.27-16.47.23:475][687]Cmd: MAP LOAD FILE="../../../../../Work/Projects/Maximon/Maximon/Content/Maximon/Maps/InteractionConcept.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.27-16.47.23:475][687]LightingResults: New page: Lighting Build
+[2022.07.27-16.47.23:475][687]LoadErrors: New page: Loading map: InteractionConcept.umap
+[2022.07.27-16.47.23:479][687]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-16.47.23:480][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.47.23:480][687]MapCheck: New page: Map Check
+[2022.07.27-16.47.23:480][687]LightingResults: New page: Lighting Build
+[2022.07.27-16.47.23:488][687]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-16.47.23:491][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: ================================================
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Total job queries 220, among them cache hits 9 (4.09%)
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Tracking 211 distinct input hashes that result in 135 distinct outputs (63.98%)
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: RAM used: 0.34 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Shaders Compiled: 213
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Jobs assigned 211, completed 211 (100.00%)
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Average time worker was idle: 10.92 s
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Time job spent in pending queue: average 9.66 s, longest 34.06 s
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Job execution time: average 11.10 s, max 19.82 s
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Job life time (pending + execution): average 20.77 s, max 35.49
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 42.50 s
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Jobs were issued in 72 batches (only local compilation was used), average 2.93 jobs/batch
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Average processing rate: 4.96 jobs/sec
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Effective parallelization: 7.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight (compiled    4 times, average 2.03 sec, max 2.18 sec, min 1.81 sec)
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    7 times, average 2.01 sec, max 2.42 sec, min 1.60 sec)
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 1.96 sec, max 2.09 sec, min 1.89 sec)
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    7 times, average 1.96 sec, max 3.40 sec, min 1.57 sec)
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    7 times, average 1.94 sec, max 2.28 sec, min 1.67 sec)
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.07.27-16.47.24:891][687]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.66% of total time (compiled    7 times, average 2.01 sec, max 2.42 sec, min 1.60 sec)
+[2022.07.27-16.47.24:892][687]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.54% of total time (compiled    7 times, average 1.96 sec, max 3.40 sec, min 1.57 sec)
+[2022.07.27-16.47.24:892][687]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.54% of total time (compiled    8 times, average 1.71 sec, max 3.24 sec, min 0.48 sec)
+[2022.07.27-16.47.24:892][687]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.50% of total time (compiled    7 times, average 1.94 sec, max 2.28 sec, min 1.67 sec)
+[2022.07.27-16.47.24:892][687]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.38% of total time (compiled    8 times, average 1.65 sec, max 3.41 sec, min 0.53 sec)
+[2022.07.27-16.47.24:892][687]LogShaderCompilers: Display: ================================================
+[2022.07.27-16.47.24:894][687]LogWorld: UWorld::CleanupWorld for InteractionConcept, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-16.47.24:894][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.47.24:901][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.07.27-16.47.24:908][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.07.27-16.47.24:914][687]LogAudio: Display: Audio Device (ID: 1) registered with world 'InteractionConcept'.
+[2022.07.27-16.47.24:914][687]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.27-16.47.24:915][687]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.27-16.47.24:915][687]LogAIModule: Creating AISystem for world InteractionConcept
+[2022.07.27-16.47.24:924][687]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.27-16.47.24:933][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.07.27-16.47.24:936][687]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.27-16.47.24:936][687]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.066ms to complete.
+[2022.07.27-16.47.24:936][687]LogFileHelpers: Loading map 'InteractionConcept' took 1.461
+[2022.07.27-16.47.27:227][819]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.27-16.47.27:230][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.27-16.47.27:231][819]PIE: New page: PIE session: InteractionConcept (28 Jul 2022, 00:47:27)
+[2022.07.27-16.47.27:231][819]LogPlayLevel: Creating play world package: /Game/Maximon/Maps/UEDPIE_0_InteractionConcept
+[2022.07.27-16.47.27:235][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003949s)
+[2022.07.27-16.47.27:235][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maximon/Maps/InteractionConcept.InteractionConcept to /Game/Maximon/Maps/UEDPIE_0_InteractionConcept.InteractionConcept (0.004040s)
+[2022.07.27-16.47.27:235][819]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.27-16.47.27:235][819]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.27-16.47.27:235][819]LogAIModule: Creating AISystem for world InteractionConcept
+[2022.07.27-16.47.27:236][819]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2022.07.27-16.47.27:242][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.07.27-16.47.27:242][819]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.07.27-16.47.27:242][819]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.27-16.47.27:242][819]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.27-16.47.27:242][819]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.27-16.47.27:242][819]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.27-16.47.27:242][819]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.27-16.47.27:242][819]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.27-16.47.27:242][819]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.27-16.47.27:242][819]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.27-16.47.27:243][819]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.27-16.47.27:243][819]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.27-16.47.27:243][819]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.27-16.47.27:244][819]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.27-16.47.27:281][819]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Arctis 5 Game)
+[2022.07.27-16.47.27:282][819]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.27-16.47.27:282][819]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.27-16.47.27:282][819]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.27-16.47.27:282][819]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.07.27-16.47.27:282][819]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.07.27-16.47.27:283][819]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.07.27-16.47.27:283][819]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.07.27-16.47.27:283][819]LogInit: FAudioDevice initialized.
+[2022.07.27-16.47.27:283][819]LogAudio: Display: Audio Device (ID: 3) registered with world 'InteractionConcept'.
+[2022.07.27-16.47.27:294][819]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.07.27-16.47.27:295][819]LogWorld: Bringing World /Game/Maximon/Maps/UEDPIE_0_InteractionConcept.InteractionConcept up for play (max tick rate 60) at 2022.07.27-20.47.27
+[2022.07.27-16.47.27:295][819]LogWorld: Bringing up level for play took: 0.001611
+[2022.07.27-16.47.27:297][819]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2022.07.27-16.47.27:299][819]PIE: Server logged in
+[2022.07.27-16.47.27:300][819]PIE: Play in editor total start time 0.07 seconds.
+[2022.07.27-16.47.55:740][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-16.47.55:740][522]LogWorld: BeginTearingDown for /Game/Maximon/Maps/UEDPIE_0_InteractionConcept
+[2022.07.27-16.47.55:740][522]LogWorld: UWorld::CleanupWorld for InteractionConcept, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-16.47.55:740][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.47.55:753][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.27-16.47.55:754][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.47.55:760][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.27-16.47.55:761][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.07.27-16.47.55:762][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.07.27-16.47.55:767][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.27-16.47.55:812][524]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.07.27-16.47.59:630][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.07.27-16.47.59:668][752]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maximon/Maps/UpperLevel_Concept.UpperLevel_Concept
+[2022.07.27-16.47.59:668][752]Cmd: MAP LOAD FILE="../../../../../Work/Projects/Maximon/Maximon/Content/Maximon/Maps/UpperLevel_Concept.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.27-16.47.59:668][752]LightingResults: New page: Lighting Build
+[2022.07.27-16.47.59:668][752]LoadErrors: New page: Loading map: UpperLevel_Concept.umap
+[2022.07.27-16.47.59:691][752]LogWorld: UWorld::CleanupWorld for InteractionConcept, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-16.47.59:691][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.47.59:691][752]MapCheck: New page: Map Check
+[2022.07.27-16.47.59:691][752]LightingResults: New page: Lighting Build
+[2022.07.27-16.47.59:697][752]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-16.47.59:699][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.07.27-16.47.59:700][752]LogWorld: UWorld::CleanupWorld for UpperLevel_Concept, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-16.47.59:700][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.47.59:707][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.07.27-16.47.59:713][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.07.27-16.47.59:717][752]LogAudio: Display: Audio Device (ID: 1) registered with world 'UpperLevel_Concept'.
+[2022.07.27-16.47.59:717][752]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.27-16.47.59:718][752]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.27-16.47.59:718][752]LogAIModule: Creating AISystem for world UpperLevel_Concept
+[2022.07.27-16.47.59:725][752]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.27-16.47.59:732][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.07.27-16.47.59:734][752]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.27-16.47.59:734][752]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.059ms to complete.
+[2022.07.27-16.47.59:734][752]LogFileHelpers: Loading map 'UpperLevel_Concept' took 0.066
+[2022.07.27-16.48.06:210][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.07.27-16.48.06:246][137]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maximon/Maps/InteractionConcept.InteractionConcept
+[2022.07.27-16.48.06:246][137]Cmd: MAP LOAD FILE="../../../../../Work/Projects/Maximon/Maximon/Content/Maximon/Maps/InteractionConcept.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.27-16.48.06:246][137]LightingResults: New page: Lighting Build
+[2022.07.27-16.48.06:246][137]LoadErrors: New page: Loading map: InteractionConcept.umap
+[2022.07.27-16.48.06:247][137]LogWorld: UWorld::CleanupWorld for UpperLevel_Concept, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-16.48.06:247][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.48.06:248][137]MapCheck: New page: Map Check
+[2022.07.27-16.48.06:248][137]LightingResults: New page: Lighting Build
+[2022.07.27-16.48.06:253][137]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.27-16.48.06:255][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.07.27-16.48.06:255][137]LogWorld: UWorld::CleanupWorld for InteractionConcept, bSessionEnded=true, bCleanupResources=true
+[2022.07.27-16.48.06:256][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.27-16.48.06:263][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.07.27-16.48.06:269][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.07.27-16.48.06:276][137]LogAudio: Display: Audio Device (ID: 1) registered with world 'InteractionConcept'.
+[2022.07.27-16.48.06:276][137]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.27-16.48.06:276][137]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.27-16.48.06:277][137]LogAIModule: Creating AISystem for world InteractionConcept
+[2022.07.27-16.48.06:281][137]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.27-16.48.06:288][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.07.27-16.48.06:290][137]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.27-16.48.06:290][137]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.063ms to complete.
+[2022.07.27-16.48.06:291][137]LogFileHelpers: Loading map 'InteractionConcept' took 0.045
