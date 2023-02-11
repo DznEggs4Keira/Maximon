@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/Maximon/Maximon/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"E:/Maximon/Maximon/Content/Levels/Adventure_house.umap",
 				"C:/Users/kristofer.lalindedia/Documents/JungleGame/UnrealProject/Maximon/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
 				"C:/Users/kristofer.lalindedia/Documents/JungleGame/UnrealProject/Maximon/Content/MasterMaterials/HeroProps/Main_Statue_Master.uasset",
 				"C:/Users/kristofer.lalindedia/Documents/JungleGame/UnrealProject/Maximon/Content/Assets/HeroProps/Main_Statue/MI_Main_Statue_Torso.uasset",
